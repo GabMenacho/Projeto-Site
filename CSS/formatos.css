@@ -1,0 +1,41 @@
+
+.banner1 {
+    background-image: url(./banner1.jpeg);
+}
+
+.kkran {
+    background-image: url(./imagens/kkrankenbruder4.jpg);
+}
+
+.nieta {
+    background-image: url(./imagens/nieta6.jpg);
+}
+
+.wander {
+    background-image: url(./imagens/Wander5.jpg);
+}
+
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.encontreAqui {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: "auto";
+    text-align: left;
+    background-color: white;
+}
+
+.fundo {
+    background-attachment: fixed;
+}
+
