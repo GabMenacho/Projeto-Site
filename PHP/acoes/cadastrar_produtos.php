@@ -8,7 +8,7 @@
         $nome = $_POST['nome'];
         $descricao = $_POST['descricao'];
         $preco = $_POST['preco'];
-        $nomeImagem = $_POST['nomeImagem'];
+        $nomeImagem = $_POST['nomeImagem']; 
 
         $sql = "INSERT INTO produtos VALUES (null, '$nome', '$descricao', '$preco', '$nomeImagem')"; //comando sql para inserir os dados no bd
         mysqli_query($connect, $sql);
