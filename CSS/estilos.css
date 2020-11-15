@@ -43,7 +43,7 @@ p {
 
 
 /* Fomartação de estilo presente na página Produtos*/ 
-menu.artistas {
+.artistas {
     list-style-type:square;
     list-style-position: inside;
     background-color: #f7bdd0;
@@ -61,13 +61,26 @@ menu.tipo {
     background-color:#fff0f5;
 }
 
+li.nav-item {
+    display: list-item;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+}
+
 /* Até aqui fomartação de estilo presente na página PRODUTOS*/ 
 
 /* Fomartação de estilo presente na página ARTISTAS*/ 
 
-li {
+/*li {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    display: list-item;
+    text-align: right;
+}**/
 
 table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
