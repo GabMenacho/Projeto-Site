@@ -7,7 +7,7 @@
 }
 
 a:visited {
-    color:royalblue
+    color:royalblue;
 }
 
 a:hover {
@@ -66,11 +66,6 @@ li.nav-item {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-}
 
 /* Até aqui fomartação de estilo presente na página PRODUTOS*/ 
 
@@ -156,11 +151,7 @@ table {
     height: 200px;
 }
 
-.inicio {
-    padding-top: 10px;
-    width: 50%;
-    float: right;
-}
+
 
 
 .textoInicio {

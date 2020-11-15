@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" type="text/css" href="estilos.css" >
-        <title>Produtos</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../CSS/estilos.css" >
+        <script src="../JAVASCRIPT/javascript.js"></script>
+        <title>Artistas</title>
     </head>
 
     <body>
-        <img src="uma_banner1.jpeg" width="100%"></img><br><br>
-
-        <nav class="menupagina">
-            <a href="home.html">Home</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="artistas.html">Artistas</a>
-            <a href="newsletter.html">Newsletter</a>
-            <a href="contato.html">Contato</a>
-        </nav>
+    <?php
+            include_once "../PHP/includes/navegacao.php";
+    ?>
 
         <br>
         <br>
@@ -59,7 +55,7 @@
 
             <div id="blocofloat2">
                 <div id="div4">
-                    <img src="./imagens/kkranken_banner1.png" width="100%">
+                    <img src="../imagens/kkranken_banner1.png" width="100%">
                 </div>
                 <div id="div5">
                     <p id="historia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
@@ -74,29 +70,8 @@
         <br>
         <br>
 
-        <div style="background-color: rgb(198, 211, 230);">
-            <table>
-                <tr>
-                    <td rowspan="5" colspan="3" align="center">UMA<br>STORE</td>
-                    <td width="40%">NOSSAS REDES SOCIAIS</td>
-                    <td >Ajuda</td>
-                </tr>
-
-                <tr>
-                    <td><img src="./imagens/insta.png" width="5%">
-                        <img src="./imagens/face.png" width="5%">
-                        <img src="./imagens/twitter.png" width="5%">
-                        <img src="./imagens/yt.png" width="5%">
-                    </td>
-                    <td>Prazos e locais de entrega</td>
-                </tr>
-
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>Política de troca e devolução</td>
-                </tr>
-
-            </table>
-        </div>
+        <?php
+            include_once "../PHP/includes/rodape.php";
+        ?>
     </body>
 </html>

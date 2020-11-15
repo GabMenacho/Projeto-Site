@@ -16,13 +16,13 @@ function trocarImagem1(contador)
         var timer;
         if (contador==1)
             {
-                document.images["imgkkraken"].src="./imagens/kkrankenbruder13.jpg";
+                document.images["imgkkraken"].src="../imagens/kkrankenbruder13.jpg";
                 clearTimeout(timer);
             }
 
         else if (contador ==0)
             {
-                document.images["imgkkraken"].src="./imagens/kkrankenbruder4.jpg";
+                document.images["imgkkraken"].src="../imagens/kkrankenbruder4.jpg";
             }
     }
 
@@ -32,13 +32,13 @@ function trocarImagem2(contador)
         var timer;
         if (contador==1)
             {
-                document.images["imgnieta"].src="./imagens/nieta3.jpg";
+                document.images["imgnieta"].src="../imagens/nieta3.jpg";
                 clearTimeout(timer);
             }
 
         else if (contador ==0)
             {
-                document.images["imgnieta"].src="./imagens/nieta4.jpg";
+                document.images["imgnieta"].src="../imagens/nieta4.jpg";
             }
     }
 
@@ -48,13 +48,13 @@ function trocarImagem3(contador)
         var timer;
         if (contador==1)
             {
-                document.images["imgwander"].src="./imagens/wander7.jpg";
+                document.images["imgwander"].src="../imagens/wander7.jpg";
                 clearTimeout(timer);
             }
 
         else if (contador ==0)
             {
-                document.images["imgwander"].src="./imagens/wander5.jpg";
+                document.images["imgwander"].src="../imagens/wander5.jpg";
             }
     }
 

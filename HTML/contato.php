@@ -2,23 +2,17 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="estilos.css" >
-        <title>contato</title>
-        <script src="./javascript.js"></script>
-  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../CSS/estilos.css" >
+        <script src="../JAVASCRIPT/javascript.js"></script>
+        <title>Contato</title>
     </head>
 
     <body>
 
-        <img src="uma_banner1.jpeg" width="100%"></img><br><br>
-
-        <nav class="menupagina">
-            <a href="home.html">Home</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="artistas.html">Artistas</a>
-            <a href="newsletter.html">Newsletter</a>
-            <a href="contato.html">Contato</a>
-        </nav>
+    <?php
+            include_once "../PHP/includes/navegacao.php";
+    ?>
 
         <br>
         <br>
@@ -78,29 +72,8 @@
       <p align="center">(11) 95555-5555</p>
       <br>
 
-      <div style="background-color: rgb(198, 211, 230);">
-        <table>
-            <tr>
-                <td rowspan="5" colspan="3" align="center">UMA<br>STORE</td>
-                <td width="40%">NOSSAS REDES SOCIAIS</td>
-                <td >Ajuda</td>
-            </tr>
-
-            <tr>
-                <td><img src="./imagens/insta.png" width="5%">
-                    <img src="./imagens/face.png" width="5%">
-                    <img src="./imagens/twitter.png" width="5%">
-                    <img src="./imagens/yt.png" width="5%">
-                </td>
-                <td>Prazos e locais de entrega</td>
-            </tr>
-
-            <tr>
-                <td>&nbsp;</td>
-                <td>Política de troca e devolução</td>
-            </tr>
-
-        </table>
-      </div>
+      <?php
+            include_once "../PHP/includes/rodape.php";
+        ?>
     </body>
 </html>
